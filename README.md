@@ -14,26 +14,27 @@ Folder that holds the demo for this plugin. The basic files are:
 
 - **index.html**: the demo page
 - **css/style.css**: gives CSS styles to the demo page. Now it is a plain .css but you can add your pre-processor of choice.
-- **js/**: Just in case you need libraries/plugins you should add them here (for example, jquery.min.js).
+- **images**: If you need add images to your demo, otherwise just delete this folder.
+- **js/**: In case you need libraries/plugins you should add them here (for example, jquery.min.js), otherwise just delete this folder.
 
 dist
 --
 Files that are ready for production, minified and packed versions. The minified one is called directly from `demo/index.html`.
 
-- **your-javascript-plugin-name.js** *(rename this)*
-- **your-javascript-plugin-name.min.js** *(rename this)*
+- **your-javascript-plugin-name.js** *(&#9888; rename this)*
+- **your-javascript-plugin-name.min.js** *(&#9888; rename this)*
 
 src
 --
 Your plugin as you code it. Then this file will be added to a workflow and prepared for production.
 
-- **your-javascript-plugin-name.js** *(rename this)*
+- **your-javascript-plugin-name.js** *(&#9888; rename this)*
 
-your-javascript-plugin-name.javascript.json
+your-javascript-plugin-name.json
 --
-This file holds many configuration texts, basically to identify your plugin and generate the final files.
+This JSON file holds many configuration texts, basically to identify your plugin and generate the final files.
 
-*(rename this and look inside)*
+*(&#9888; rename this and look inside)*
 
 Gruntfile.js
 --
@@ -41,9 +42,9 @@ Gruntfile.js
 File that commands **GruntJS** tasks and take care of several behaviors:
 
 - **meta**: add a commented piece of text in the top of the generated JS files.
-- **concat**: combine JS files. *(change name here)*
-- **jshint**: looks for improvements in the JS code. *(change name here)*
-- **uglify**: minify code to a **.min.js** file. *(change name here)*
+- **concat**: combine JS files. *(&#9888; change name here)*
+- **jshint**: looks for improvements in the JS code. *(&#9888; hange name here)*
+- **uglify**: minify code to a **.min.js** file. *(&#9888; change name here)*
 - **watch**: using [Livereload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) watch for changes in HTML/JS files and reload the browser if there is any.
 
 There are 2 main tasks:
