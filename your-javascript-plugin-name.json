@@ -1,0 +1,33 @@
+{
+	"name": "yourJavascriptPluginNameCamelCased",
+	"title": "Your Javascript Plugin Name",
+	"homepage": "https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name",
+	"description": "ADD DESCRIPTION HERE",
+	"demo": "ADD URL TO A LIVE DEMO",
+	"keywords": [
+		"javascript",
+		"plugin",
+		"KEYWORD",
+		"TO MAKE IT",
+		"SEARCHABLE"
+	],
+	"version": "ADD VERSION",
+	"author": {
+		"name": "YOUR NAME",
+		"url": "https://github.com/YOUR-GITHUB-USERNAME",
+		"twitter": "@YOUR-TWITTER-ACCOUNT"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/",
+			"copyright": "©CURRENT-YEAR"
+		}
+	],
+	"bugs": "https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name/issues",
+	"docs": "https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name#readme",
+	"download": "https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name/archive/master.zip",
+	"dependencies": {
+		"jquery": "MINIMUM-jQUERY-VERSION-IF-NEEDED"
+	}
+}

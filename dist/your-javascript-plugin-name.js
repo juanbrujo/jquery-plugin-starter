@@ -1,8 +1,8 @@
 /*
- *  Your jQuery Plugin Name - vADD VERSION
+ *  Your Javascript Plugin Name - vADD VERSION
  *  ADD DESCRIPTION HERE
  *
- *  https://github.com/YOUR-GITHUB-USERNAME/your-jquery-plugin-name
+ *  https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name
  *  Demo: ADD URL TO A LIVE DEMO
  *
  *  Author: YOUR NAME |  @YOUR-TWITTER-ACCOUNT
