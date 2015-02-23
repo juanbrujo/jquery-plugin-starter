@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
-		pkg: grunt.file.readJSON("your-javascript-plugin-name.json"),
+		pkg: grunt.file.readJSON("your-jquery-plugin-name.json"),
 		meta: {
 			banner: "/*\n" +
 				" *  <%= pkg.title || pkg.name %> - v<%= pkg.version %>\n" +
@@ -16,23 +16,23 @@ module.exports = function(grunt) {
 		},
 		concat: {
 			dist: {
-				src: ["src/your-javascript-plugin-name.js"],
-				dest: "dist/your-javascript-plugin-name.js"
+				src: ["src/your-jquery-plugin-name.js"],
+				dest: "dist/your-jquery-plugin-name.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
 			}
 		},
 		jshint: {
-			files: ["src/your-javascript-plugin-name.js"],
+			files: ["src/your-jquery-plugin-name.js"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
 		},
 		uglify: {
 			my_target: {
-				src: ["src/your-javascript-plugin-name.js"],
-				dest: "dist/your-javascript-plugin-name.min.js"
+				src: ["src/your-jquery-plugin-name.js"],
+				dest: "dist/your-jquery-plugin-name.min.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"

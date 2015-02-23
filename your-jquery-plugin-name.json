@@ -1,11 +1,11 @@
 {
-	"name": "yourJavascriptPluginNameCamelCased",
-	"title": "Your Javascript Plugin Name",
-	"homepage": "https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name",
+	"name": "yourjQueryPluginNameCamelCased",
+	"title": "Your jQuery Plugin Name",
+	"homepage": "https://github.com/YOUR-GITHUB-USERNAME/your-jquery-plugin-name",
 	"description": "ADD DESCRIPTION HERE",
 	"demo": "ADD URL TO A LIVE DEMO",
 	"keywords": [
-		"javascript",
+		"jquery",
 		"plugin",
 		"KEYWORD",
 		"TO MAKE IT",
@@ -24,9 +24,9 @@
 			"copyright": "©CURRENT-YEAR"
 		}
 	],
-	"bugs": "https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name/issues",
-	"docs": "https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name#readme",
-	"download": "https://github.com/YOUR-GITHUB-USERNAME/your-javascript-plugin-name/archive/master.zip",
+	"bugs": "https://github.com/YOUR-GITHUB-USERNAME/your-jquery-plugin-name/issues",
+	"docs": "https://github.com/YOUR-GITHUB-USERNAME/your-jquery-plugin-name#readme",
+	"download": "https://github.com/YOUR-GITHUB-USERNAME/your-jquery-plugin-name/archive/master.zip",
 	"dependencies": {
 		"jquery": "MINIMUM-jQUERY-VERSION-IF-NEEDED"
 	}

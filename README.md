@@ -1,12 +1,12 @@
-JavaScript Plugin Starter
+jQuery Plugin Starter
 ===
 
-This is my starter structure for a generic *JavaScript plugin*. It makes use of several technologies as described below.
+This is my starter structure for a generic *jQuery plugin*. It makes use of several technologies as described below.
 
 ###Use:
 In every file you'll see a piece of commented code. That's the instructions for each file. In others you'll see *UPPERCASED-WORDS* and those one you should change to fit your needs like the name of the plugin, version, your GitHub user, the repository URL and so. 
 
-Files should be new names too (*your-javascript-plugin-name.js*) and they're commanded in `Gruntfile.js` so change names there there too, it's clearly identified.
+Files should be new names too (*your-jquery-plugin-name.js*) and they're commanded in `Gruntfile.js` so change names there there too, it's clearly identified.
 
 demo
 --
@@ -15,22 +15,22 @@ Folder that holds the demo for this plugin. The basic files are:
 - **index.html**: the demo page
 - **css/style.css**: gives CSS styles to the demo page. Now it is a plain .css but you can add your pre-processor of choice.
 - **images**: If you need add images to your demo, otherwise just delete this folder.
-- **js/**: In case you need libraries/plugins you should add them here (for example, jquery.min.js), otherwise just delete this folder.
+- **js/**: In case you need libraries/plugins you should add them here (for example, jquery.min.js).
 
 dist
 --
 Files that are ready for production, minified and packed versions. The minified one is called directly from `demo/index.html`.
 
-- **your-javascript-plugin-name.js** *(&#9888; rename this)*
-- **your-javascript-plugin-name.min.js** *(&#9888; rename this)*
+- **your-jquery-plugin-name.js** *(&#9888; rename this)*
+- **your-jquery-plugin-name.min.js** *(&#9888; rename this)*
 
 src
 --
-Your plugin as you code it. Then this file will be added to a workflow and prepared for production.
+Your plugin as you code it and fully commented. Then this file will be added to a workflow and prepared for production.
 
-- **your-javascript-plugin-name.js** *(&#9888; rename this)*
+- **your-jquery-plugin-name.js** *(&#9888; rename this)*
 
-your-javascript-plugin-name.json
+your-jquery-plugin-name.json
 --
 This JSON file holds many configuration texts, basically to identify your plugin and generate the final files.
 
@@ -59,7 +59,7 @@ or:
 
 	$ grunt watch
 	
-> **testjs**: very helpful, run this one everytime you think you have a working demo. It looks for errors and improvements in your JavaScript code and shows suggestions.
+> **testjs**: very helpful, run this one everytime you think you have a working demo. It looks for errors and improvements in your jQuery code and shows suggestions.
 
 *Use*:
 	

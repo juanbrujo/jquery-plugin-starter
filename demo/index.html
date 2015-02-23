@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Your JavaScript Plugin Name</title>
+	<title>Your jQuery Plugin Name</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,7 +13,9 @@
 	-->
 
 	<a href="URL-TO-YOUR-GITHUB-REPOSITORY">GitHub</a>
-	
-	<script src="../dist/your-javascript-plugin-name.min.js"></script>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/VERSION/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery.latest.min.js"><\/script>')</script>
+	<script src="../dist/your-jquery-plugin-name.min.js"></script>
 </body>
 </html>
